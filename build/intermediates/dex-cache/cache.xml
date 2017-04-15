@@ -20,6 +20,15 @@
         <dex dex="/Users/DavidiMac/Documents/MUCProject/LoggingGeofencing/app/build/intermediates/pre-dexed/debug/classes_31d500ed322394c3374a5b5435af3a5aca1e2fa5.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="/Users/DavidiMac/Documents/MUCProject/LoggingGeofencing/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/DavidiMac/Documents/MUCProject/LoggingGeofencing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b5cbad6e9c79b72159112e562d02f16e1289e9d2/classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="/Users/DavidiMac/.android/build-cache/54acae4e11bede1fa0c0f13f759fe6e720964bb7/output/jars/classes.jar"
         jumboMode="false"
@@ -63,6 +72,15 @@
         revision="25.0.2"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
         <dex dex="/Users/DavidiMac/Documents/MUCProject/LoggingGeofencing/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_c8b0505ec62ae2123a79e48668c769fbe2c6c731.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/DavidiMac/Documents/MUCProject/LoggingGeofencing/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e509db9d92e5dacda0d4307f0cca457231136376">
+        <dex dex="/Users/DavidiMac/Documents/MUCProject/LoggingGeofencing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b432026b5bb30efe574a69605fadb0b2daa2ca40/classes.dex" />
     </item>
     <item
         is-multidex="false"
