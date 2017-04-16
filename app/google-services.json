@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1048975827214-6res9ea7jbf604441rf5al2jerun40mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.halfdrop.david.logginggeofencingapp",
+            "certificate_hash": "fe9bc4ea211f0190846eb04f77156084c93ed95e"
+          }
+        },
+        {
           "client_id": "1048975827214-m7fq89gmv6gmsghr51498iloj7968pvg.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048975827214-m7fq89gmv6gmsghr51498iloj7968pvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

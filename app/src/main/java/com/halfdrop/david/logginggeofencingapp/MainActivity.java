@@ -61,10 +61,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void ConnectToDatabase(){
-        DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference("name");
+        DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference();
+        final DatabaseReference nameRef = databaseRef.child("name");
         System.out.println("Hello Mum");
         System.out.println(databaseRef);
-        databaseRef.addValueEventListener(new ValueEventListener() {
+//        databaseRef.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//                System.out.println("Failed to read value." + databaseError.toString());
+//            }
+//        });
+
+        nameRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String value = dataSnapshot.getValue(String.class);
@@ -73,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                System.out.println("Failed to read value." + databaseError.toString());
+
             }
         });
     }
